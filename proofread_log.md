@@ -81,3 +81,8 @@
 - EPUB: book-writer 하네스 `build_epub.sh`(v1.0.0과 같은 스크립트)를 이 저장소에서 슬러그 `.`로 실행 → `코드-너머의-시대-v1.0.1.epub`(118,110 bytes), epubcheck 통과(오류 0, 경고 0), 같은 파일을 `docs/epub/`에도 넣음.
 - 웹: `docs/index.html`의 목차(nav#TOC)와 본문(main)을 v1.0.0과 같은 pandoc 옵션(`-s --toc --toc-depth=2`)으로 다시 만들어 교체했다. 이 방식은 v1.0.0 원고에 적용하면 기존 목차·본문과 완전히 같은 결과를 낸다(검증함). 머리 부분(스타일, 표지, 오프닝 영상 블록)과 꼬리 부분은 바이트 단위로 그대로다. 목차 링크 104개 모두 본문 앵커와 맞는다.
 - 보안 grep(`에이전트OS|devocean|DEVOCEAN|sktelecom|SK텔레콤|/Users/|interview_answers`): 원천·통합 원고·EPUB·웹 0건.
+
+## 정오 — v1.0.2 (2026-11-01)
+
+- 2장 인용문 안의 오타 "엑셀을 잘 다린다" → "엑셀을 잘 다룬다". v1.0.1에서 따옴표 안이라 남겨 둔 건을 저자 승인으로 고쳤다. 다른 변경 없음(판권 판본·판 이력, 매니페스트 version, README 링크·판 이력만 갱신).
+- 빌드: 같은 파이프라인(assemble_manuscript.py → build_epub.sh, 웹은 nav#TOC·main만 재생성). epubcheck 오류 0, 목차 링크 104개 정상, 오프닝 영상 블록 그대로, 보안 grep 0건.
