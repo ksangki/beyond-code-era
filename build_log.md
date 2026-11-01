@@ -1,8 +1,8 @@
-# Build Log — 코드 너머의 시대 v1.0.0
+# Build Log — 코드 너머의 시대 v1.0.1
 
-- **Date:** 2026-08-29T06:20:36Z
-- **Output:** `코드-너머의-시대-v1.0.0.epub`
-- **Size:** 124915 bytes
+- **Date:** 2026-10-31T23:58:56Z
+- **Output:** `코드-너머의-시대-v1.0.1.epub`
+- **Size:** 118110 bytes
 - **Pandoc exit:** 0
 - **epubcheck:** passed
 - **epubcheck strict:** 1
@@ -14,8 +14,8 @@
 - title: 코드 너머의 시대
 - author: 김상기
 - language: ko
-- version: 1.0.0
-- pub_date: 2026-05-02
+- version: 1.0.1
+- pub_date: 2026-11-01
 - identifier: urn:uuid:f3298fb7-4334-4189-a0f9-b40e38ea5646
 - license: CC BY-NC-SA 4.0
 - genre: tech-book
