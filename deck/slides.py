@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
-"""「코드 너머의 시대」 발표자료 내용 (v1.0.2) — 엔진은 하네스 site-build/scripts/deck.py.
+"""「코드 너머의 시대」 발표자료 내용 (v1.0.3) — 엔진은 하네스 site-build/scripts/deck.py.
 사용법: python3 deck/slides.py <엔진 폴더> docs/presentation/index.html
-내용의 출처는 04_manuscript.md(v1.0.2, sha256 276410030563)뿐이다. 수치는 원고 문장 그대로 옮기고,
+내용의 출처는 04_manuscript.md(v1.0.3, sha256 86297b6c7468)뿐이다. 수치는 원고 문장 그대로 옮기고,
 원고가 밝힌 출처 이름만 붙인다. 원고에 조사 이름이 없는 수치는 foot에 그 사실을 적는다.
-원고에 본문 그림이 없어 그림 슬라이드는 없다. 표지 그림(cover.png)은 글자 없는 바탕 그림이라 표지 슬라이드에 싣지 않는다.
+원고에 본문 그림이 없어 그림 슬라이드는 없다. 표지 슬라이드에는 v1.0.3의 글자 넣은 표지(docs/cover.png)를 싣는다.
 색은 표지 바탕(#151423)과 선(#FF5AA0)에서 땄다 — 매니페스트에 theme이 없어 여기 둔다."""
 import sys, pathlib
 sys.path.insert(0, sys.argv[1])
@@ -21,7 +21,7 @@ D.cover(eyebrow='BEYOND CODE · "코드 너머, 회사보다 오래 남을 개�
         subtitle='AI가 모든 것을 바꾼 세상에서 살아남는 법',
         quote='"AI가 당신을 대체하지 않습니다. AI를 사용하는 사람이 대체합니다."',
         quote_by='— 7장에서',
-        meta='김상기 · 1시간 발표 · 개발자와 비개발자 모두를 위해', art=False)
+        meta='김상기 · 1시간 발표 · 개발자와 비개발자 모두를 위해', art=True)
 
 D.quote('OPENING', '먼저 질문 하나', '비개발자가 주말 세 시간 만에 앱을 만들었다',
         '"Claude한테 이렇게 저렇게 해달라고 말했더니 만들어줬어요. 주말에 세 시간 정도 걸렸나?"',
@@ -329,6 +329,6 @@ D.ez('대청소는 집 전체가 아니라 <b>서랍 한 칸</b>을 비우는 �
 
 D.end_cover(title_html='코드 너머의<br><span class="coral-t">시대</span>',
             subtitle='당신의 이야기는 이제부터입니다.',
-            note='「코드 너머의 시대」 v1.0.2(2026-11-01) · 「코드 너머, 회사보다 오래 남을 개발자」(2025) 후속작<br>CC&nbsp;BY-NC-SA&nbsp;4.0 · ksangki.github.io/beyond-code-era')
+            note='「코드 너머의 시대」 v1.0.3(2026-11-02) · 「코드 너머, 회사보다 오래 남을 개발자」(2025) 후속작<br>CC&nbsp;BY-NC-SA&nbsp;4.0 · ksangki.github.io/beyond-code-era')
 
 D.render(sys.argv[2])

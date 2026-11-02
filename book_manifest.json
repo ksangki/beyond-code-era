@@ -3,7 +3,7 @@
   "subtitle": "AI가 모든 것을 바꾼 세상에서 살아남는 법",
   "author": "김상기",
   "language": "ko",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "chapters": [
     "머리말",
     "PART 1. 지금 무슨 일이 벌어지고 있는가",
@@ -21,7 +21,7 @@
     "9장. 코드 너머에서 만나는 것들"
   ],
   "identifier": "urn:uuid:f3298fb7-4334-4189-a0f9-b40e38ea5646",
-  "pub_date": "2026-11-01",
+  "pub_date": "2026-11-02",
   "license": "CC BY-NC-SA 4.0",
   "genre": "tech-book",
   "cover_alt": "코드 너머의 시대 표지",
